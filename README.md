@@ -12,7 +12,7 @@ UT Bootcamp Homework #9 - ReadMe Generator
 <a href="">Video Demo</a>
 
 ## Link to Deployed Page:
-https://tim-zebra.github.io/Create-ReadMe_from_ReadingYou/
+N/A
 
 ## References:
 
