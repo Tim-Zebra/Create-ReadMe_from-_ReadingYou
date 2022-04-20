@@ -11,12 +11,12 @@ const fs = require('fs');
 const questions = [ // You'll need more questions.
     {
         type: 'input',
-        message: 'Enter the title of your ReadMe',
+        message: 'Enter the title of your ReadMe: ',
         name: 'title',
     },
     {
         type: 'input',
-        message: 'Please describe your application',
+        message: 'Please describe your application: ',
         name: 'description',
     },
     {
