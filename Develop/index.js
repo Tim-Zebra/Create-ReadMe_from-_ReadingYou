@@ -63,9 +63,18 @@ const questions = [ //Adjust questions based on 'PER README' above
 const writeToFile = (fileName, data) => {
 // Take in the name of the file and the data.
 
+
+// Get the basis: Make sure your inport can be exported. Then play with this other stuff.
+renderLicenseBadge(license)
+renderLicenseLink(license);
+renderLicenseSection(license);
+generateMarkdown(data);
+
 // Create a .MD file, and write to it.
 fs.writeFile(`${fileName}.md`, JSON.stringify(response), (err) =>
 err ? console.error(err) : console.log('Success!'));
+
+
 
 // title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 // When license is chosen, the badge will be added near the top of the ReadMe and a notice is added to the section entitled "license"
