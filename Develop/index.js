@@ -8,7 +8,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // TODO: Create an array of questions for user input
-const questions = [ // You'll need more questions.
+const questions = [ //Adjust questions based on 'PER README' above
     {
         type: 'input',
         message: 'Enter the title of your ReadMe: ',
@@ -59,6 +59,11 @@ const questions = [ // You'll need more questions.
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+// Take in the name of the file and the data.
+
+
+// Create a .MD file, and write to it.
+
 // title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 // When license is chosen, the badge will be added near the top of the ReadMe and a notice is added to the section entitled "license"
 // username and email is added to the "Questions" section of the readme
@@ -69,7 +74,10 @@ function writeToFile(fileName, data) {
 
 
 // TODO: Create a function to initialize app
-function init() {}  /* See what the intro should look like from lecture video on 4-20-22.*/ 
+function init() {   /* See what the intro should look like from lecture video on 4-20-22.*/ 
+// This will begin the prompts
+
+}
 
 // Function call to initialize app
 init();
