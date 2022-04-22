@@ -64,7 +64,7 @@ const writeToFile = (fileName, data) => {
 // Take in the name of the file and the data.
 
 
-// Get the basis: Make sure your inport can be exported. Then play with this other stuff.
+// Get the basis: Make sure your import can be exported. Then play with this other stuff.
 renderLicenseBadge(license)
 renderLicenseLink(license);
 renderLicenseSection(license);
