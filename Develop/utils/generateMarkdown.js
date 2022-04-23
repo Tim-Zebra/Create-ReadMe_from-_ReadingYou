@@ -567,8 +567,10 @@ function generateMarkdown(data) {
 
   **[Installation instructions](#installation)** <br>
   **[How to use](#usage)** <br>
-  **[Options to contribute](#Contributing)** <br>
+  **[Ways to contribute](#contributing)** <br>
   **[Tests used](#tests)** <br>
+  **[Questions?](#questions)** <br>
+  **[Licensing](#license)** <br>
 
   ## Installation
   ${data.installation}

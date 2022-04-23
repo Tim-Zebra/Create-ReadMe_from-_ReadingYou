@@ -25,4 +25,4 @@ Made sure each function ran as intended
 Ensured input was stored correctly
 Ensured output was displaying as intended
 Added section info replacing specifics from data object
-Tested
+Tested each section as it was added by enabling only a few prompt options
