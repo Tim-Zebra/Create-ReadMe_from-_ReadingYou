@@ -14,7 +14,7 @@ Answer the prompts generated in the terminal
 ![Banner](./demos/demo_ReadMe-License-Tailored.png) <br />
 ![Banner](./demos/demo_InputPrompts.gif) <br />
 ![Banner](./demos/demo_ReadMe-WebView.gif) <br />
-<a href="https://drive.google.com/file/d/1WHOiYjj1GivxNXra8jsx9YeR4iRSTeOa/view">Video Demo</a>
+<a href="https://drive.google.com/file/d/1WHOiYjj1GivxNXra8jsx9YeR4iRSTeOa/view">Video Demo</a> <br />
 
 ## Link to Deployed Page:
 N/A
@@ -23,11 +23,11 @@ N/A
 Badges obtained from - gist: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
 ## Development Process (See commits for more details):
-Loaded base programs 
-Pseudocoded guided by acceptance criteria
-Made sure each function ran as intended
-Ensured input was stored correctly
-Ensured output was displaying as intended
-Added section info replacing specifics from data object
-Tested each section 
-Sections were added together once passing
+Loaded base programs <br />
+Pseudocoded guided by acceptance criteria <br />
+Made sure each function ran as intended <br />
+Ensured input was stored correctly <br />
+Ensured output was displaying as intended <br />
+Added section info replacing specifics from data object <br />
+Tested each section  <br />
+Sections were added together once passing <br />
