@@ -553,7 +553,7 @@ function generateMarkdown(data) {
   // combines all parts of license into a single markdown
   let license = `${badge}${link}`;
 
-
+  // Generates MarkDown
   return `# ${data.title}
 
   ## Description 
@@ -562,7 +562,7 @@ function generateMarkdown(data) {
   ${license}
 
   ## Table of Contents:
-
+  -Create links to sections
   ## Installation
 
   ## Usage
@@ -571,6 +571,9 @@ function generateMarkdown(data) {
 
   ## Tests
 
+  ## Questions
+  Includes user name and link to github
+  Email with instructions on how to reach me with additional Qs
   ## License
   ${section}
 
