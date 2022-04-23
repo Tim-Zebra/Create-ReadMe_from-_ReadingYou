@@ -63,7 +63,7 @@ const questions = [ //Adjust questions based on 'PER README' above
 const writeToFile = (fileName, data) => {
 // Take in the name of the file and the data.
 // Create a .MD file, and write to it.
-fs.writeFile(`${fileName}.md`, JSON.stringify(data), (err) =>
+fs.writeFile(`${fileName}.md`, data, (err) =>
 err ? console.error(err) : console.log('Success!'));
 
 // title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -82,8 +82,7 @@ inquirer
     .then(response => {
         data = response;
         // This will send the data to the file to write.
-        writeToFile(data.title, data);
-        generateMarkdown(data);
+        writeToFile('README', generateMarkdown(data));
     });
 
 

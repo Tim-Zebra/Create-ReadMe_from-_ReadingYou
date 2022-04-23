@@ -1,4 +1,5 @@
-tring
+// TODO: Create a function that returns a license badge based on which license is passed in
+// If there is no license, return an empty string
 function renderLicenseBadge(license) {
   let string = '';
 
@@ -95,13 +96,18 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   // Gets badge, link, and section of license
-  let badge = renderLicenseBadge(data);
-  let link = renderLicenseLink(data);
-  let section = renderLicenseSection(data);
+  let badge = renderLicenseBadge(data.license);
+  let link = renderLicenseLink(data.license);
+  let section = renderLicenseSection(data.license);
+  // combines all parts of license into a single markdown
   let license = `[!${section}${badge}]${link}`;
-  // combines all aspects into a single markdown
-  return `# ${data.title}
 
+
+  return `# ${data.title}
+   
+  ## Description 
+  ${data.description}
+  
   `;
 }
 module.exports = generateMarkdown;
