@@ -15,7 +15,7 @@ UT Bootcamp Homework #9 - ReadMe Generator
 N/A
 
 ## References:
-Badges obtained from - gist:https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+Badges obtained from - gist: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
 ## Development Process (See commits for more details):
 Loaded base programs 
