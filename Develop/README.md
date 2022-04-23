@@ -2,7 +2,7 @@
 
   ## Description 
 
-  A simple application that takes in user input and creates a well designed README.MD file <br>
+  A simple application that takes in your input via a series of prompts and creates a well-designed README.MD file <br>
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -10,20 +10,22 @@
 
   **[Installation instructions](#installation)** <br>
   **[How to use](#usage)** <br>
-  **[Options to contribute](#Contributing)** <br>
+  **[Ways to contribute](#contributing)** <br>
   **[Tests used](#tests)** <br>
+  **[Questions?](#questions)** <br>
+  **[Licensing](#license)** <br>
 
   ## Installation
-  The application should be installed by downloading and then running through VS code
+  The application should be installed by downloading through GitHub, and then opening the entire file in VS code
 
   ## Usage
-  To use, please open the terminal and run with the command line node index.js
+  To use, please open your index.js file in the Integrated Terminal of VS code and run with the command line ‘node index.js’
 
   ## Contributing
   If you would like to make a contribution, please create a branch and submit a merge request
 
   ## Tests
-  The application was tested by confirming each component displayed as expected in the readme file
+  The application was tested by confirming each individual component displayed as expected in the readme file. Then components were gradually added together until all components functioned as desired 
 
   ## Questions
   Created by Tim-Zebra | Active on [GitHub](https://github.com/Tim-Zebra) <br>
