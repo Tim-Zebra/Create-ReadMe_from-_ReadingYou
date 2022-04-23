@@ -38,7 +38,7 @@ const questions = [ //Adjust questions based on 'PER README' above
     // },
     // {
     //     type: 'input',
-    //     message: 'Please enter the instructions for testing your application: ',
+    //     message: 'Please enter how you tested your application: ',
     //     name: 'test'
     // },
      {

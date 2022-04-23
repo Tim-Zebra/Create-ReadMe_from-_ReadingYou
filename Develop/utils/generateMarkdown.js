@@ -562,22 +562,30 @@ function generateMarkdown(data) {
   ${license}
 
   ## Table of Contents:
-  -Create links to sections
+
+  **[Installation instructions](#installation)** <br>
+  **[How to use](#usage)** <br>
+  **[Options to contribute](#Contributing)** <br>
+  **[Tests used](#tests)** <br>
+
   ## Installation
+  ${data.installation}
 
   ## Usage
+  ${data.usage}
 
   ## Contributing
+  ${data.contribution}
 
   ## Tests
+  ${data.tests}
 
   ## Questions
-  Includes user name and link to github
-  Email with instructions on how to reach me with additional Qs
-  ## License
-  ${section}
+  Created by ${data.username} active on **[GitHub](https://github.com/${data.username})
+  If you have additional questions please email me at ${data.email}
 
-  `;
+  ## License
+  ${section}`;
 }
 module.exports = generateMarkdown;
 

@@ -3,10 +3,13 @@
   ## Description 
 
   test
-  [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
   ## Table of Contents:
-
+  **[How to Install](#installation)** <br>
+  **[How to Use](#usage)**
+  **[How to Contribute](#Contributing)**
+  **[How to Test](#tests)**
   ## Installation
 
   ## Usage
@@ -15,19 +18,23 @@
 
   ## Tests
 
+  ## Questions
+  Includes user name and link to github
+  Email with instructions on how to reach me with additional Qs
   ## License
-  Creative Commons License
-    
-  -No Copyright-
+  GNU General Public License v3
 
-  The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
+  Copyright (C) 2022 undefined
 
-  You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below.
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
 
-  -Other Information-
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
 
-  In no way are the patent or trademark rights of any person affected by CC0, nor are the rights that other persons may have in the work or in how the work is used, such as publicity or privacy rights.
-  Unless expressly stated otherwise, the person who associated a work with this deed makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law.
-  When using or citing the work, you should not imply endorsement by the author or the affirmer.
-
-  
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <https://www.gnu.org/licenses/>.
