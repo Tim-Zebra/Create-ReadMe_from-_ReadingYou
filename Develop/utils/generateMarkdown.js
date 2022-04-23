@@ -558,7 +558,7 @@ function generateMarkdown(data) {
 
   ## Description 
 
-  ${data.description}
+  ${data.description} <br>
   ${license}
 
   ## Table of Contents:
@@ -581,7 +581,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  Created by ${data.username} active on **[GitHub](https://github.com/${data.username})
+  Created by ${data.username} | Active on [GitHub](https://github.com/${data.username}) <br>
   If you have additional questions please email me at ${data.email}
 
   ## License

@@ -22,3 +22,7 @@ Loaded base programs
 Pseudocoded based off acceptance criteria
 Added more pseudocode based off starting and ending points of defined functions
 Made sure each function ran as intended
+Ensured input was stored correctly
+Ensured output was displaying as intended
+Added section info replacing specifics from data object
+Tested
