@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+tring
 function renderLicenseBadge(license) {
   let string = '';
 
@@ -99,9 +98,11 @@ function generateMarkdown(data) {
   let badge = renderLicenseBadge(data);
   let link = renderLicenseLink(data);
   let section = renderLicenseSection(data);
-
+  let license = `[!${section}${badge}]${link}`;
   // combines all aspects into a single markdown
-  return `[!${section}${badge}]${link}`;
+  return `# ${data.title}
+
+  `;
 }
 module.exports = generateMarkdown;
 
